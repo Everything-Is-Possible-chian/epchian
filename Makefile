@@ -6,7 +6,7 @@ NETWORK_TYPE := ep-pubnet
 export GO111MODULE = on
 export GOPROXY = https://goproxy.io
 # windows, linux, darwin
-export GOOS = windows
+export GOOS = linux
 export GOARCH = amd64
 
 # include ledger support
